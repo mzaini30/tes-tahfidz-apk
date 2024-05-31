@@ -14,8 +14,10 @@
     "vite": "^5.2.0"
   },
   "dependencies": {
+    "@vitejs/plugin-legacy": "^5.4.1",
     "kumpulan-tools": "^1.0.0",
     "range": "^0.0.3",
-    "sweetalert2": "^11.11.0"
+    "sweetalert2": "^11.11.0",
+    "terser": "^5.31.0"
   }
 }

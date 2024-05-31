@@ -34,7 +34,7 @@
   {/each}
 </div>
 <button on:click={olah} class="tombol-tes">Tes</button>
-<p><a href="https://wa.me/?text=Download+Aplikasi+Tes+Tahfidz+https://clicky.id/zenzen/tahfidz" target='_blank'>Share Aplikasi Ini</a></p>
+<p><a href="https://wa.me/?text=Download+Aplikasi+Tes+Tahfidz+https://clicky.id/zenzen/tahfidz" >Share Aplikasi Ini</a></p>
 
 <style>
   .wadah-juz {
