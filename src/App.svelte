@@ -3,6 +3,7 @@
   import { range } from "range";
   import { acak } from "kumpulan-tools";
   import Swal from "sweetalert2";
+  import jualan from "./jualan.yaml";
 
   let juz = [];
   let kumpulanHalaman = [];
@@ -33,8 +34,18 @@
     </label>
   {/each}
 </div>
-<button on:click={olah} class="tombol-tes">Tes</button>
-<p><a href="https://wa.me/?text=Download+Aplikasi+Tes+Tahfidz+https://clicky.id/zenzen/tahfidz" >Share Aplikasi Ini</a></p>
+{#if juz.length > 0}
+  <button on:click={olah} class="tombol-tes">Tes</button>
+{/if}
+
+<h2>Store</h2>
+{#each jualan as item}
+  <p class="p-jualan">
+    <a href={item.link} class="a-jualan">
+      <img src={item.gambar} alt="" class="img-jualan" />
+    </a>
+  </p>
+{/each}
 
 <style>
   .wadah-juz {

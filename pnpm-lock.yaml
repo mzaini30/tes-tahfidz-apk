@@ -20,6 +20,9 @@ dependencies:
   terser:
     specifier: ^5.31.0
     version: 5.31.0
+  vite-plugin-yaml2:
+    specifier: ^1.1.5
+    version: 1.1.5
 
 devDependencies:
   '@sveltejs/vite-plugin-svelte':
@@ -2154,6 +2157,10 @@ packages:
       browserslist: 4.23.0
       escalade: 3.1.2
       picocolors: 1.0.1
+    dev: false
+
+  /vite-plugin-yaml2@1.1.5:
+    resolution: {integrity: sha512-98PPEBWmyS+t2KcvGXfvnX83+QRGedpyPkDwluUAzCyCquwJzYsUNqfNzJHDk2/52d8uoCmJTZJpnQMls7LNtw==}
     dev: false
 
   /vite@5.2.12(terser@5.31.0):
