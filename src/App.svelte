@@ -4,6 +4,7 @@
   import { acak } from "kumpulan-tools";
   import Swal from "sweetalert2";
   import jualan from "./jualan.yaml";
+  import Whatsapp from "./icon/whatsapp.svelte";
 
   let juz = [];
   let kumpulanHalaman = [];
@@ -47,6 +48,14 @@
   </p>
 {/each}
 
+<a
+  class="wa"
+  href="https://chat.whatsapp.com/KjY8BdDIu8xA36HM82CwIt"
+  target="_blank"
+>
+  <Whatsapp></Whatsapp>
+</a>
+
 <style>
   .wadah-juz {
     font-size: 25px;
@@ -63,5 +72,17 @@
     background: green;
     color: white;
     text-transform: uppercase;
+  }
+  a.wa {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+  }
+
+  .wa svg {
+    /* width: 200px; */
+  }
+
+  a.wa.s-XsEmFtvddWTw {
   }
 </style>
