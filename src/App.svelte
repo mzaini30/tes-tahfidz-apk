@@ -50,7 +50,7 @@
 
 <a
   class="wa"
-  href="https://whatsapp.com/channel/0029VagbH24Bqbr5ME0Wit0K"
+  href="https://chat.whatsapp.com/B6gUdBiQU4U7Yi2rsQcwV5"
   target="_blank"
 >
   <Whatsapp></Whatsapp>
